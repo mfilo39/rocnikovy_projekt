@@ -1,0 +1,4 @@
+Caesarova šifra je jednou z najjednoduchších substitučných šifier. Jej základná myšlienka spočíva v tom,
+že každé písmeno otvoreného textu sa nahradí písmenom o určitý počet pozícií posunutým v abecede. História tejto šifry siaha až do starovekého Ríma,
+kde ju pravdepodobne používal Julius Caesar vo vojenskej komunikácii.
+Bezpečnosť tejto šifry je veľmi nízka, keďže existuje len 26 možných kľúčov. Útočník môže šifru prelomiť hrubou silou alebo frekvenčnou analýzou.

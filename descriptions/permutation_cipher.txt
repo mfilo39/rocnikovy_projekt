@@ -1,0 +1,4 @@
+Permutačná šifra nemení písmená, len ich preusporadúva podľa určitej permutácie.
+Je to transpozičná šifra.
+Používali ju už starovekí Gréci (napr. Scytale cipher), neskôr sa používala aj v diplomatickej korešpondencii.
+Text sa rozdelí do blokov dĺžky n, kde n je dĺžka permutácie a každý blok sa premieša podľa danej permutácie.

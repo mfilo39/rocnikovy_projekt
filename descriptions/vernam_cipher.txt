@@ -1,0 +1,7 @@
+Vernamovu šifru navrhol Gilbert Vernam v roku 1917.
+Používa bitovú operáciu XOR medzi otvoreným textom a náhodným kľúčom rovnakej dĺžky.
+Neskôr maďarský matematik J. Mauborgne dokázal, že ak je kľúč:
+-úplne náhodný,
+-rovnako dlhý ako správa,
+-použitý iba raz,
+tak vytvára teoreticky nerozbitnú šifru

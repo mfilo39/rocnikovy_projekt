@@ -1,0 +1,4 @@
+Affine Cipher je lineárna substitučná šifra definovaná nad konečným poľom modulo 26.
+Na rozdiel od Caesarovej šifry rozširuje priestor kľúčov zavedením parametra a, ktorý riadi „sklon“ transformácie.
+Podmienka je, že a a m (pre nás bude m označovať počet písmen abecedy, teda 26) musia mať najväčšieho spoločného deliteľa = 1.
+Keby táto podmienka nebola splnená, tak by šifra nebola bijektívna, teda by sme mohli dostať dva a viac rôznych textov po rozšifrovaní jedného šifrovaného textu.

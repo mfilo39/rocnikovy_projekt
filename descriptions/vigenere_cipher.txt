@@ -1,0 +1,5 @@
+Vigenèrova šifra je polyalfabetická substitučná šifra, ktorá bola dlho považovaná za nerozbitnú.
+Používa kľúčové slovo, ktoré určuje sériu posunov v abecede.
+Tento prístup maskuje frekvenčné vlastnosti jazyka a robí šifru odolnejšou proti jednoduchým útokom.
+Jednotlive znaky otvoreného textu sa následne posúvajú o k, kde k je znak s indexom i v kľúčovom slove, kde i je získaný ako (pozícia znaku v otvorenom texte % dĺžka kľúčového slova).
+Po posunutí znaku o k ešte samozrejme musíme spraviť % 26 aby sme dostali korektný znak abecedy.

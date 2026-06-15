@@ -1,4 +1,16 @@
 def vigenere_encrypt(text, key):
+    """
+        Zašifruje text pomocou Vigenèrovej šifry.
+
+        Každé písmeno sa posúva o hodnotu určenú zodpovedajúcim písmenom kľúča.
+
+        Args:
+            text (str): Vstupný text na zašifrovanie.
+            key (str): Kľúč (slovo) používaný na šifrovanie.
+
+        Returns:
+            str: Zašifrovaný text.
+        """
     result = ""
     key = key.lower()
     j = 0
@@ -13,6 +25,18 @@ def vigenere_encrypt(text, key):
     return result
 
 def vigenere_decrypt(text, key):
+    """
+        Rozšifruje text zašifrovaný Vigenèrovou šifrou.
+
+        Používa opačný posun ako pri šifrovaní.
+
+        Args:
+            text (str): Zašifrovaný text.
+            key (str): Kľúč použitý pri šifrovaní.
+
+        Returns:
+            str: Pôvodný text.
+        """
     result = ""
     key = key.lower()
     j = 0
